@@ -61,13 +61,14 @@ background-color: gray;
 
 .Family {
     background-image: url("../media/images/family.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-repeat:no-repeat;
+    height: 350px;
+    background-size:  100% 100%;
     font-size: larger;
 }
 .Family h3{
-    border: 2px outset black;
+    display: inline;
+    border: 5px outset black;
     font-size: larger;
     font-family: "BrokenMachine";
     color: rgba(117, 108, 108, 0.712);
@@ -76,13 +77,19 @@ background-color: gray;
     
 }
 
+.Family ul{
+    border: 5px outset black;
+    width:fit-content;
+    background-color: gray;
+}
+
 .Bonne {
     background-image: url("../media/images/Bonne_family.jpg");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: grey;
-    background-size: 100%;
+    background-repeat:no-repeat;
+    height: 350px;
+    background-size:  100% 100%;
+    font-size: larger;
     font-size: larger;
 margin-top: -19px;
 }
@@ -93,7 +100,7 @@ margin-top: -19px;
     font-family: "BrokenMachine";
     background-size: cover;
     background-position: center;
-    border: 2px solid black;
+    border: 5px outset black;
     color: rgba(117, 108, 108, 0.712);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
@@ -105,21 +112,24 @@ margin-top: -19px;
     float: left;
 }
 .Bonne ul{
-margin-top: -2px;
+margin-top: 2px;
+border: 5px outset black;
+    width:fit-content;
+    background-color: gray;
 }
 
 .reaverbots {
     background-image: url("../media/images/reavebot_background.jpg");
     color: white;
     font-size: larger;
-    margin-top: -25px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgba(85, 66, 66, 0.466)
 }
 
 .reaverbots h4{
+    display: inline;
     font-family: "BrokenMachine";
-    border: 2px solid black;
+    border: 5px outset black;
     color: rgb(255, 255, 255);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(66, 65, 65);
