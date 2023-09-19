@@ -49,14 +49,21 @@ font-size: large;
 border: 2px inset black;
 background-color: gray;
 -webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: rgb(68, 64, 64)
+-webkit-text-stroke-color: rgb(68, 64, 64);
+width:fit-content;
+margin-left: auto;
+margin-right: auto;
 }
-
+.megaman table{
+    margin-left: auto;
+    margin-right: auto;
+}
 .megaman table, th, td{
     background-color: gray;
     border: 2px outset black;
     text-align: center;
     font-size: larger;
+    
 }
 
 .Family {
@@ -74,13 +81,14 @@ background-color: gray;
     color: rgba(117, 108, 108, 0.712);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
-    
+    background-color: gray;
 }
 
 .Family ul{
     border: 5px outset black;
     width:fit-content;
     background-color: gray;
+    margin-top: 4px;
 }
 
 .Bonne {
@@ -90,8 +98,6 @@ background-color: gray;
     height: 350px;
     background-size:  100% 100%;
     font-size: larger;
-    font-size: larger;
-margin-top: -19px;
 }
 
 .Bonne h4{
@@ -104,6 +110,7 @@ margin-top: -19px;
     color: rgba(117, 108, 108, 0.712);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
+    background-color: gray;
 }
 
 
@@ -133,4 +140,6 @@ border: 5px outset black;
     color: rgb(255, 255, 255);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(66, 65, 65);
+    background-color: gray;
+    
 }
