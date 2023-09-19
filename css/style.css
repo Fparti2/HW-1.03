@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Byte;
+    src: url("../media/fonts/256BYTES.TTF");
+}
+
+@font-face {
+    font-family: BrokenMachine;
+    src: url("../media/fonts/Broken Machine/BrokenMachine.ttf");
+}
+
+body{
+background-image: url("/media/images/background.jpg");
+font-family: "Byte";
+}
+
+ul{
+    list-style-position: inside;
+}
+.megaman h1{
+    font-family: "BrokenMachine";
+    text-align: center;
+    border: 5px dashed rgb(8, 8, 8);
+    background-image: url("/media/images/flutter.jpg");
+    color: rgba(117, 108, 108, 0.712);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0)
+}
+.megaman img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    border: 4px solid rgb(3, 2, 80);
+}
+.megaman h5{
+font-size: large;
+    text-align: center;
+    border: 2px solid black;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+   
+}
+
+.megaman p{
+    text-align: center;
+font-size: large;
+border: 2px inset black;
+background-color: gray;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: rgb(68, 64, 64)
+}
+
+.megaman table, th, td{
+    background-color: gray;
+    border: 2px outset black;
+    text-align: center;
+    font-size: larger;
+}
+
+.Family {
+    background-image: url("/media/images/family.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: larger;
+}
+.Family h3{
+    border: 2px outset black;
+    font-size: larger;
+    font-family: "BrokenMachine";
+    color: rgba(117, 108, 108, 0.712);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    
+}
+
+.Bonne {
+    background-image: url("/media/images/Bonne_family.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: grey;
+    background-size: 100%;
+    font-size: larger;
+margin-top: -19px;
+}
+
+.Bonne h4{
+    display: inline;
+    font-size: larger;
+    font-family: "BrokenMachine";
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    color: rgba(117, 108, 108, 0.712);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+
+.Bonne img{
+    height: 40px;
+    float: left;
+}
+.Bonne ul{
+margin-top: -2px;
+}
+
+.reaverbots {
+    background-image: url("/media/images/reavebot_background.jpg");
+    color: white;
+    font-size: larger;
+    margin-top: -25px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(85, 66, 66, 0.466)
+}
+
+.reaverbots h4{
+    font-family: "BrokenMachine";
+    border: 2px solid black;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(66, 65, 65);
+}
