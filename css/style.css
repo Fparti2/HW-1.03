@@ -68,13 +68,13 @@ margin-right: auto;
 
 .Family {
     background-image: url("../media/images/family.jpg");
-    background-repeat:no-repeat;
+    background-repeat:repeat-x;
     height: 350px;
-    background-size:  100% 100%;
+    background-size:  50% 100%;
     font-size: larger;
 }
 .Family h3{
-    display: inline;
+
     border: 5px outset black;
     font-size: larger;
     font-family: "BrokenMachine";
@@ -89,19 +89,19 @@ margin-right: auto;
     width:fit-content;
     background-color: gray;
     margin-top: 4px;
+    padding-left: 2%;
 }
 
 .Bonne {
     background-image: url("../media/images/Bonne_family.jpg");
-    background-repeat: no-repeat;
-    background-repeat:no-repeat;
+    background-repeat: repeat-x;
     height: 350px;
-    background-size:  100% 100%;
+    background-size:  50% 100%;
     font-size: larger;
 }
 
 .Bonne h4{
-    display: inline;
+
     font-size: larger;
     font-family: "BrokenMachine";
     background-size: cover;
@@ -111,18 +111,21 @@ margin-right: auto;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
     background-color: gray;
+   
 }
 
 
 .Bonne img{
     height: 40px;
     float: left;
+    border: 4px outset black;
 }
 .Bonne ul{
 margin-top: 2px;
 border: 5px outset black;
     width:fit-content;
     background-color: gray;
+    padding-left: 2%;
 }
 
 .reaverbots {
@@ -134,7 +137,6 @@ border: 5px outset black;
 }
 
 .reaverbots h4{
-    display: inline;
     font-family: "BrokenMachine";
     border: 5px outset black;
     color: rgb(255, 255, 255);
@@ -142,4 +144,8 @@ border: 5px outset black;
     -webkit-text-stroke-color: rgb(66, 65, 65);
     background-color: gray;
     
+}
+
+.reaverbots ul{
+    padding-left: 2%;
 }
